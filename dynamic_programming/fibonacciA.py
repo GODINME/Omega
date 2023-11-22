@@ -8,7 +8,7 @@ def fib(n):
         return 0
     elif n == 1:
         return 1
-    
+
     # Recursive Case
     return fib(n - 1) + fib(n - 2)
 
@@ -25,4 +25,3 @@ if __name__ == "__main__":
     # print(f"Fibonacci of 40 is: {fib(40)}")
     # print(f"Fibonacci of 45 is: {fib(45)}")
     # print(f"Fibonacci of 50 is: {fib(50)}")
-    
