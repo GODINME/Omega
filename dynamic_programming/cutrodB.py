@@ -8,7 +8,7 @@ def memoized_cut_rod(p,  n):
     Let n be the size of the rod from i .. n
     Let q be the maximum profit for the length n
     """
-    # Initializing memo(a List r to keep maximum renue)  
+    # Initializing memo(a List r to keep maximum revnue)  
     # Maximum revenue for rod with length i
     r = [-inf] * (n + 1)
     return cut_rod_helper(p, n, r)
@@ -48,6 +48,6 @@ if __name__ == "__main__":
     ## where profit for a piece of length i is given as price subscript i
     rod_length = [1, 2, 3, 4, 5]
     rod_price =  [1, 5, 8, 9, 10]
-    n = 6
+    n = 5
 
     print("Maximum Revenue in Example 1 is ", memoized_cut_rod(rod_price, n))

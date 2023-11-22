@@ -13,6 +13,9 @@ def fib(n):
     return fib(n - 1) + fib(n - 2)
 
 
+# 0 1 1 2 3 5 8 
+
+
 # Example One
 if __name__ == "__main__":
     print(f"Fibonacci of 5 is: {fib(5)}")
@@ -21,8 +24,8 @@ if __name__ == "__main__":
     print(f"Fibonacci of 20 is: {fib(20)}")
     print(f"Fibonacci of 25 is: {fib(25)}")
     print(f"Fibonacci of 30 is: {fib(30)}")
-    # print(f"Fibonacci of 35 is: {fib(35)}")
-    # print(f"Fibonacci of 40 is: {fib(40)}")
-    # print(f"Fibonacci of 45 is: {fib(45)}")
-    # print(f"Fibonacci of 50 is: {fib(50)}")
+    print(f"Fibonacci of 35 is: {fib(35)}")
+    print(f"Fibonacci of 40 is: {fib(40)}")
+    print(f"Fibonacci of 45 is: {fib(45)}")
+    print(f"Fibonacci of 50 is: {fib(50)}")
     

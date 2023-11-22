@@ -30,4 +30,5 @@ if __name__ == "__main__":
     print(f"Fibonacci of 40 is: {fib(40)}")
     print(f"Fibonacci of 45 is: {fib(45)}")
     print(f"Fibonacci of 50 is: {fib(50)}")
+    print(f"Fibonacci of 1000 is: {fib(1000)}")
     

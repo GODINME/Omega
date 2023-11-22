@@ -36,6 +36,6 @@ if __name__ == "__main__":
     ## where profit for a piece of length i is given as price subscript i
     rod_length = [1, 2, 3, 4, 5]
     rod_price =  [1, 5, 8, 9, 10]
-    n = 6
+    n = 4
 
     print("Maximum Revenue in Example 1 is ", buttom_up_cut_rod(rod_price, n))
